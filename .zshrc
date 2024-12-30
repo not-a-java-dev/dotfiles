@@ -69,6 +69,7 @@ alias jollycheck='curl -s https://leb.tjcsucht.net/jollycheck --output /dev/null
 alias ee='exit'
 alias csgo='$HOME/.steam/steam/steamapps/common/SteamLinuxRuntime/run-in-scout-on-soldier -- "$HOME/.steam/steam/steamapps/common/Counter-Strike Global Offensive/csgo.sh" "-steam"'
 alias pleasedothecommandwhereyouchangethecurrentactiveterminaldirectorytothehomefolder='cd'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.df/ --work-tree=$HOME'
 
 OMPCONF=$HOME/.oh-my-posh
 
