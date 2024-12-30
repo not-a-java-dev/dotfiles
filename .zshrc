@@ -74,7 +74,6 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.df/ --work-tree=$HOME'
 OMPCONF=$HOME/.oh-my-posh
 
 eval "$(oh-my-posh init zsh --config $OMPCONF/clean-detailed-winter.omp.json)"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source <(fzf --zsh)
 # pluh!! 2
 #export GEODE_SDK="/home/winter/Documents/Geode/"
